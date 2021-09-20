@@ -15,15 +15,12 @@ parser.add_argument('Dir2Restore', metavar='restore_dir', type=str, help='direct
 
 args = parser.parse_args()
 
-# get path from class and assign them to variables
 backupdir = args.DirWithBackup
 backup_restore = args.Dir2Restore
 
 # Variable declaration
 picdir = "Media/DCIM"
 sqlDB = "Manifest.db"
-
-# Connection to DB
 
 try:
     slqdb_location = os.path.join(backupdir, sqlDB)
