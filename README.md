@@ -11,3 +11,8 @@ $ ./iphrestore.py backup_location directory_to_restore
 ```
 
 I haven't tested this script under Windows but I assume that it should works as expected.
+
+Why to use this script ?
+* You only have backup and no iPhone
+* You want to access to pics and videos without restoring them to iPhone
+* You can't restore backup to iPhone (this was my case)

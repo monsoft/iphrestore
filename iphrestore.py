@@ -19,8 +19,6 @@ args = parser.parse_args()
 backupdir = args.DirWithBackup
 backup_restore = args.Dir2Restore
 
-#os._exit(0)
-
 # Variable declaration
 picdir = "Media/DCIM"
 sqlDB = "Manifest.db"
