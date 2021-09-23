@@ -5,6 +5,8 @@ This small script will extract pictures and videos from iPhone backup. Depends o
 * Windows: \Users\\[USERNAME]\AppData\Roaming\Apple Computer\MobileSync\Backup\\[ID]
 * Linux: [your_choice_directory]\\[ID]
 
+[ID] - it is directory name with hash which is specific per each iPhone.
+
 To run restore process, start script with options:
 ```
 $ ./iphrestore.py backup_location directory_to_restore
